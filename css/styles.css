@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(25, 25, 25);
+}
+
+header > nav {
+    background-color: black;
+    text-align: right;
+}
+
+button {
+    background-color: rgb(135, 135, 135);
+}
+
+h1 > p.bienvenida {
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+
+h1 > p.bienvenidaregistro {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
