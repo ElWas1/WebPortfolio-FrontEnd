@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
 }
 
 header > nav {
@@ -7,20 +7,43 @@ header > nav {
     text-align: right;
 }
 
-button {
-    background-color: rgb(135, 135, 135);
+.btn {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 9px;
+    border: none;
+      color: rgb(25, 25, 25);
+      padding: 8px 16px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      margin: 0px 0px;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      cursor: pointer;
+      text-decoration: none;
+}
+
+.btn1 {
+      background-color: rgb(25, 25, 25); 
+      color: white; 
+      border: 2px solid #ffffff;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+    color: black;
 }
 
 h1 > p.bienvenida {
     text-align: left;
     color: white;
-    background-color: black;
 }
 
 h1 > p.bienvenidaregistro {
     text-align: center;
     color: white;
-    background-color: black;
 }
 
 footer {
