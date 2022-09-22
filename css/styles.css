@@ -1,53 +1,69 @@
-* {
-    background-color: rgb(35, 35, 35);
-}
+.boton {
+      /* Color del texo */
 
-header > nav {
-    background-color: black;
-    text-align: right;
-}
+      color: #ffffff;
+      /* Eliminar color de fondo */
 
-.btn {
-    color: #ffffff;
-    background: transparent;
-    border: 2px solid #ffffff;
-    border-radius: 9px;
-    border: none;
-      color: rgb(25, 25, 25);
-      padding: 8px 16px;
+      background: transparent;
+      /* Grosor del borde, estilo de línea y color */
+
+      border: 2px solid #ffffff;
+      /* Añadir esquinas curvadas */
+
+      border-radius: 6px;
+      /* Poner texto en mayúsculas */
+
+      border: none;
+      color: white;
+      padding: 12px 18px;
       text-align: center;
       display: inline-block;
       font-size: 14px;
-      margin: 0px 0px;
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
+      margin: 4px 0px;
+      -webkit-transition-duration: 0.4s;
+      /* Safari */
+      transition-duration: 0.4s;
       cursor: pointer;
       text-decoration: none;
 }
 
-.btn1 {
-      background-color: rgb(25, 25, 25); 
-      color: white; 
+.boton1 {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       border: 2px solid #ffffff;
 }
 
-.btn1:hover {
-    background-color: #ffffff;
-    color: black;
+/* Al poner el curso encima (hover) */
+
+.boton1:hover {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
 }
 
-h1 > p.bienvenida {
-    text-align: left;
-    color: white;
+#welcomeTxt{
+      text-align: center;
+      padding: 1px;
+      padding-top: 10px;
 }
 
-h1 > p.bienvenidaregistro {
-    text-align: center;
-    color: white;
+#welcomePofolio {
+      padding: 10px;
 }
 
-footer {
-    color: white;
-    text-align: center;
-    background-color: black;
+#welcomePofolioTxtBlack {
+      padding: 21px;
+}
+
+#welcomePofolioTxtWhite {
+      padding: 26px;
+      padding-right: 67px;
+}
+
+#welcomePofolioTxtBlackEn {
+      padding: 21px;
+}
+
+#welcomePofolioTxtWhiteEn {
+      padding: 26px;
+      padding-right: 41px;
 }
