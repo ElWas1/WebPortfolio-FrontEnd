@@ -5,43 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentino Conti - Portfolio Web</title>
+
+    <title>Registro (Valentino Conti - Portfolio Web)</title>
+
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
 </head>
 
-<header>
-    <nav>
-        <img src="C:\Users\Valentino\Desktop\descargar.png" alt="Argentina Programa" width="155" height="105" align="left">
-        <br>
-        <br>
-        <a href="index.html"><button class="btn btn1">Inicio</button></a>
-        <a href="login.html"><button class="btn btn1">Iniciar sesión</button></a>
-        <a href="registro.html"><button class="btn btn1">Registrarse</button></a>
-        <br>
-        <br>
-        <br>
+<header></header>
+
+<body style="background-color: rgb(25, 25, 25);">
+
+    <nav style="background-color: black;" class="navbar navbar-expand-lg navbar-dark">
+        <div id="imagenArgpr" class="container-fluid">
+            <a class="navbar-brand"
+                href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img
+                    src="data:image/png;base64,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"
+                    alt="Argentina Programa" height="140" width="240"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html"><span class="boton boton1">Inicio</span></a>
+                    <a class="nav-link" href="login.html"><span class="boton boton1">Iniciar sesión</span></a>
+                    <a class="nav-link" href="registro.html"><span class="boton boton1">Registrarse</span></a>
+                </div>
+            </div>
+        </div>
     </nav>
-</header>
 
-<body>
-    <body>
-        <main>
-            <h1>
-            <p class="bienvenidaregistro">
-                <br>
-                <span style="background-color: black">Regístrese.</span>
-                <br>
-                <br>
-            </p>
-            </h1>
-        </main>
-
-    <footer>
-        <br>
-        Programado y diseñado por Valentino Conti. (2022)
-        <br>
-        <br>
-    </footer>
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="js\script.js"></script>
 </body>
 
+<footer style="background-color: black;">
+    <br>
+    <div style="color: #ffffff" class="text-center">Programado y diseñado por Valentino Conti. (2022)</div>
+    <br>
+</footer>
 </html>
